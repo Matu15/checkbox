@@ -1,0 +1,411 @@
+body {
+    background: rgb(121, 121, 121);
+  }
+
+  .base section {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+  }
+
+
+
+
+
+
+  .box1 input[type=checkbox] {
+    visibility: hidden;
+  }
+
+  .box1 {
+    width: 20px;
+    position: relative;
+  }
+
+  .box1 label {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    border-radius: 4px;
+  }
+
+  .box1 label:after {
+    content: '';
+    width: 9px;
+    height: 5px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border: 3px solid rgb(55, 55, 55);
+    border-top: none;
+    border-right: none;
+    background: transparent;
+    opacity: 0;
+    transform: rotate(-45deg);
+  }
+
+  .box1 input[type=checkbox]:checked + label:after {
+    opacity: 1;
+  }
+
+
+
+
+
+
+
+
+
+
+  .box2 input[type=checkbox] {
+    visibility: hidden;
+  }
+
+  .box2 {
+    width: 20px;
+    position: relative;
+  }
+  .box2 label {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(55, 55, 55);
+    border-radius: 5px;
+  }
+
+  .box2 label:after {
+    content: '';
+    width: 9px;
+    height: 5px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border: 3px solid white;
+    border-top: none;
+    border-right: none;
+    background: transparent;
+    opacity: 0;
+    transform: rotate(-45deg);
+  }
+
+  .box2 input[type=checkbox]:checked + label:after {
+    opacity: 1;
+  }
+
+
+
+
+
+
+
+
+
+
+  .box3 input[type=checkbox] {
+    visibility: hidden;
+  }
+
+  .box3 {
+    width: 28px;
+    height: 28px;
+    position: relative;
+    background: white;
+  }
+
+  .box3 label {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    background: rgb(55, 55, 55);
+  }
+
+  .box3 label:after {
+    content: '';
+    width: 9px;
+    height: 5px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border: 3px solid white;
+    border-top: none;
+    border-right: none;
+    background: transparent;
+    opacity: 0;
+    transform: rotate(-45deg);
+  }
+ 
+  .box3 input[type=checkbox]:checked + label:after {
+    opacity: 1;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+  .box4 input[type=checkbox] {
+    visibility: hidden;
+  }
+
+  .box4 {
+    width: 28px;
+    height: 28px;
+    position: relative;
+    background: #fcfff4;
+  }
+
+  .box4 label {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    background: rgb(55, 55, 55);
+  }
+
+  .box4 label:after {
+    content: '';
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    background: white;
+    opacity: 0;
+  }
+
+  .box4 input[type=checkbox]:checked + label:after {
+    opacity: 1;
+  }
+ 
+
+
+
+
+
+
+
+
+
+  .circle1 input[type=checkbox] {
+    visibility: hidden;
+  }
+
+  .circle1 {
+    width: 28px;
+    height: 28px;
+    position: relative;
+    background: white;
+    border-radius: 20px;
+  }
+
+  .circle1 label {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    cursor: pointer;
+    background: rgb(55, 55, 55);
+    border-radius: 20px;
+  }
+
+  .circle1 label:after {
+    content: '';
+    width: 9px;
+    height: 5px;
+    position: absolute;
+    top: 5px;
+    left: 4px;
+    border: 3px solid white;
+    border-top: none;
+    border-right: none;
+    background: transparent;
+    opacity: 0;
+    transform: rotate(-45deg);
+  }
+
+  .circle1 input[type=checkbox]:checked + label:after {
+    opacity: 1;
+  }
+
+
+
+
+
+
+
+
+
+
+ .circle2 input[type=checkbox] {
+    visibility: hidden;
+  }
+
+ .circle2 {
+    width: 28px;
+    height: 28px;
+    position: relative;
+    background: white;
+    border-radius: 20px;
+  }
+
+  .circle2 label {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    background: rgb(55, 55, 55);
+    border-radius: 20px;
+  }
+
+  .circle2 label:after {
+    content: '';
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    background: white;
+    opacity: 0;
+    border-radius: 20px;
+  }
+
+  .circle2 input[type=checkbox]:checked + label:after {
+    opacity: 1;
+  }
+
+
+
+
+
+
+
+
+  
+
+  .slide1 input[type=checkbox] {
+    visibility: hidden;
+  }
+
+  .slide1 {
+    width: 80px;
+    height: 26px;
+    background: rgb(55, 55, 55);
+    position: relative;
+    border-radius: 20px;
+  }
+
+  .slide1 label {
+    display: block;
+    width: 34px;
+    height: 20px;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    background: white;
+    border-radius: 10px;
+    transition: 0.5s;  
+}
+ 
+  .slide1 input[type=checkbox]:checked + label {
+    left: 43px;
+  }
+
+
+
+
+
+
+
+
+
+  .slide2 input[type=checkbox] {
+    visibility: hidden;
+  }
+
+  .slide2 {
+    width: 80px;
+    height: 30px;
+    background: rgb(55, 55, 55);
+    position: relative;
+    border-radius: 20px;  
+}
+
+  .slide2:after {
+    position: absolute;
+    top: 14px;
+    left: 14px;
+    height: 2px;
+    width: 55px;
+    background: rgb(55, 55, 55);
+  }
+
+  .slide2 label {
+    display: block;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    background: white;
+    border-radius: 10px;
+    transition: 0.5s;
+  }
+
+  .slide2 input[type=checkbox]:checked + label {
+    left: 55px;
+  }
+
+
+
+
+
+
+
+
+  
+
+
+
+.slide3 {
+    width: 80px;
+    height: 20px;
+    background: rgb(55, 55, 55);
+    position: relative;
+    border-radius: 5px;
+  }
+
+  .slide3 input[type=checkbox] {
+    visibility: hidden;
+  }
+
+  .slide3 label {
+    display: block;
+    background: white;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: -2px;
+    left: 0px;
+    border-radius: 10px;
+    transition: 0.5s;
+  }
+ 
+  .slide3 input[type=checkbox]:checked + label {
+    left: 55px;
+  }
